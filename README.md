@@ -11,7 +11,7 @@ Also integrated with PushingBox and notification toggle.
 
 * Command string format is:   function, value, switch 0/1 or parameter
                               xxxxx,nnn,nnn
-* for example: NOTFY,000,1    (PushingBox Notification - ON)
+* for example: *NOTFY,000,1    (PushingBox Notification - ON)
 *              DREAD,A20,0    (digitalRead pin A2) 
 *              DWRIT,D20,1    (digitalWrite pin D2 - High/On)
 *
@@ -20,14 +20,14 @@ Also integrated with PushingBox and notification toggle.
 
 
 Functions:
-DWRIT  digitalWrite
-DREAD  digitalRead
-AWRIT  analogWrite
-AREAD  analogRead
-NOTFY  PushingBox Notification on/off 
-SLEEP  Shuts off all processing
+*DWRIT  digitalWrite
+*DREAD  digitalRead
+*AWRIT  analogWrite
+*AREAD  analogRead
+*NOTFY  PushingBox Notification on/off 
+*SLEEP  Shuts off all processing
 
 
-## Based partly on the original "Tinker" firmware
+* Based partly on the original "Tinker" firmware
 
 
