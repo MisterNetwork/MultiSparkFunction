@@ -14,7 +14,8 @@ Command string format is:
 
 Function, value, switch 0/1 or parameter:
 xxxxx,nnn,nnn
-for example: 
+For example: 
+
 * NOTFY,000,1    (PushingBox Notification - ON)
 * DREAD,A20,0    (digitalRead pin A2) 
 * DWRIT,D20,1    (digitalWrite pin D2 - High/On)
