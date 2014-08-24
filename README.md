@@ -11,9 +11,9 @@ Also integrated with PushingBox and notification toggle.
 
 Command string format is:   
 
-function, value, switch 0/1 or parameter
+function, value, switch 0/1 or parameter:
                     xxxxx,nnn,nnn
- for example: 
+.for example: 
 * NOTFY,000,1    (PushingBox Notification - ON)
 * DREAD,A20,0    (digitalRead pin A2) 
 * DWRIT,D20,1    (digitalWrite pin D2 - High/On)
