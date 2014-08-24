@@ -9,13 +9,15 @@ Multi Spark Function
 Also integrated with PushingBox and notification toggle.
 
 
-* Command string format is:   function, value, switch 0/1 or parameter
-                              xxxxx,nnn,nnn
-* for example: *NOTFY,000,1    (PushingBox Notification - ON)
-*              DREAD,A20,0    (digitalRead pin A2) 
-*              DWRIT,D20,1    (digitalWrite pin D2 - High/On)
-*
-*              AWRIT,A20,255  (AnalogWrite pin A2 - 255) 
+Command string format is:   
+
+*function, value, switch 0/1 or parameter
+*                    xxxxx,nnn,nnn
+* for example: 
+*NOTFY,000,1    (PushingBox Notification - ON)
+*DREAD,A20,0    (digitalRead pin A2) 
+*DWRIT,D20,1    (digitalWrite pin D2 - High/On)
+*AWRIT,A20,255  (AnalogWrite pin A2 - 255) 
 *
 
 
