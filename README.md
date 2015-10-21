@@ -21,7 +21,7 @@ For example:
 * DWRIT,D20,1    (digitalWrite pin D2 - High/On)
 * AWRIT,A20,255  (AnalogWrite pin A2 - 255) 
 
-Note - function names starting with "A" or "D" are reserved for functions using a value starting with an alpha character followed by 2 digit numeric value, like pin designations "D20" "A70" 
+Note - function names starting with "A" or "D" are reserved for Digital or Analog functions using a value starting with an alpha character followed by 2 digit numeric value, like pin designations "D20" "A70" 
 
 Built-in Functions:
 * DWRIT  digitalWrite
