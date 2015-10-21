@@ -9,7 +9,7 @@ Multi Spark Function
 Add more functions as you need.
 Also integrated with PushingBox and notification toggle.
 
-Function "mutiwig"  (Multi-Widget)
+Function "multiwig"  (Multi-Widget)
 Command string format is:   
 
 multiwig (Function, value, switch 0/1 or parameter:)
